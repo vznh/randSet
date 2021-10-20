@@ -1,7 +1,7 @@
-// final area
+package starting;
 import java.util.Scanner; // input scanner
 
-public class randSet {
+public class Main {
 	public static int randInt(int min, int max) {
 		return (int)((Math.random() * (max-min) + min));
 		// entire method to setup a method to use max-min
